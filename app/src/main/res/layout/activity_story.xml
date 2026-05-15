@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- ENGLISH BUTTON -->
+        <Button
+            android:id="@+id/btnEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- KANNADA BUTTON -->
+        <Button
+            android:id="@+id/btnKannada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kannada"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- MAP BUTTON -->
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Map"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- REPORT BUTTON -->
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Damage"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- STORY -->
+        <TextView
+            android:id="@+id/txtStory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:lineSpacingExtra="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

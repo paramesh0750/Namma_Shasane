@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/txtPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Name"
+        android:textSize="20sp"
+        android:paddingTop="12dp"/>
+
+    <EditText
+        android:id="@+id/edtIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Describe heritage damage"
+        android:minLines="4"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Report"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Report"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
