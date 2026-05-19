@@ -12,6 +12,13 @@
         android:orientation="vertical"
         android:padding="20dp">
 
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👤 Profile"
+            android:layout_marginTop="20dp"/>
+
         <!-- APP TITLE -->
 
         <TextView
@@ -24,16 +31,8 @@
             android:layout_marginBottom="20dp"/>
 
         <!-- PHOTO TAG CARD -->
-
-    <LinearLayout
-        android:id="@+id/cardPhoto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="30dp"
-        android:background="#FFFFFF">
-
         <LinearLayout
+            android:id="@+id/cardPhoto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -61,7 +60,6 @@
                 android:layout_gravity="center"/>
 
         </LinearLayout>
-    </LinearLayout>
 
         <!-- ABOUT SECTION -->
 

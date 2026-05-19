@@ -176,7 +176,7 @@ class PhotoActivity : AppCompatActivity() {
 
                     Toast.makeText(
                         this,
-                        "❌ GPS Location Not Found",
+                        " ✅ GPS Location ON",
                         Toast.LENGTH_SHORT
                     ).show()
                 }

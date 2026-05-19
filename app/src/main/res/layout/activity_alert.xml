@@ -28,8 +28,8 @@
         android:id="@+id/edtIssue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Describe heritage damage"
-        android:minLines="4"/>
+        android:hint="Enter Issue"
+        android:padding="12dp"/>
 
     <Button
         android:id="@+id/btnSubmit"

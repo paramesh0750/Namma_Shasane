@@ -183,11 +183,25 @@ class StoryActivity : AppCompatActivity() {
             val intent =
                 Intent(this, AlertActivity::class.java)
 
-            intent.putExtra("IMAGE_URI", imageData)
+            intent.putExtra(
+                "IMAGE_URI",
+                imageData
+            )
 
             intent.putExtra(
                 "PLACE_NAME",
                 detectedPlaceName
+            )
+
+            // SEND MAP LOCATION
+            intent.putExtra(
+                "LAT",
+                mapLat
+            )
+
+            intent.putExtra(
+                "LNG",
+                mapLng
             )
 
             startActivity(intent)
