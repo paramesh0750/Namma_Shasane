@@ -10,6 +10,7 @@ Namma Shasane is an AI-powered Android application developed using Kotlin and An
 Features
 
 • 📸 Capture or upload heritage site images
+
 • 🧠 AI-based heritage detection using Google ML Kit
 • 🌐 Story generation in English and Kannada
 • 🗺️ Google Maps integration for location viewing
